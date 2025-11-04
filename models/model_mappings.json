@@ -1,0 +1,22 @@
+{
+  "bp_mapping": {
+    "Low": 0,
+    "Normal": 1,
+    "High": 2
+  },
+  "chol_mapping": {
+    "Low": 0,
+    "Normal": 1,
+    "High": 2
+  },
+  "feature_names": [
+    "Fever",
+    "Cough",
+    "Fatigue",
+    "Difficulty Breathing",
+    "Age",
+    "Gender",
+    "Blood Pressure",
+    "Cholesterol Level"
+  ]
+}
