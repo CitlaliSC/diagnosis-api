@@ -1,8 +1,8 @@
-# 🏥 Disease Prediction API
+#  Disease Prediction API
 
 API REST para predecir enfermedades basándose en síntomas y perfil del paciente usando Machine Learning (Random Forest).
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Características](#características)
 - [Requisitos Previos](#requisitos-previos)
@@ -12,22 +12,22 @@ API REST para predecir enfermedades basándose en síntomas y perfil del pacient
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Integración con Frontend](#integración-con-frontend)
 
-## ✨ Características
+##  Características
 
-- 🤖 Predicción de enfermedades usando Random Forest
-- 🐳 Completamente dockerizado
-- 🚀 API REST con FastAPI
-- 📊 Múltiples endpoints informativos
-- 🔒 Validación de datos con Pydantic
-- 🌐 CORS habilitado para desarrollo local
-- 📈 Información detallada del modelo y probabilidades
+-  Predicción de enfermedades usando Random Forest
+-  Completamente dockerizado
+-  API REST con FastAPI
+-  Múltiples endpoints informativos
+-  Validación de datos con Pydantic
+-  CORS habilitado para desarrollo local
+-  Información detallada del modelo y probabilidades
 
-## 🔧 Requisitos Previos
+##  Requisitos Previos
 
 - Docker y Docker Compose instalados
 - Dataset: `Disease_symptom_and_patient_profile_dataset.csv`
 
-## 🚀 Instalación y Ejecución
+##  Instalación y Ejecución
 
 ### Paso 1: Preparar el Dataset
 
@@ -173,7 +173,7 @@ Obtiene los valores válidos para cada campo.
 
 ---
 
-### 6. **POST /api/predict** - Predecir Enfermedad ⭐
+### 6. **POST /api/predict** - Predecir Enfermedad
 **Endpoint principal** para predecir enfermedades.
 
 **Request Body:**
@@ -348,7 +348,7 @@ function App() {
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 \`\`\`
 disease-prediction-api/
@@ -370,7 +370,7 @@ disease-prediction-api/
 
 ---
 
-## 🌐 Integración con Frontend
+##  Integración con Frontend
 
 ### Ejemplo Completo con React
 
@@ -446,7 +446,7 @@ export default DiseasePredictionForm;
 
 ---
 
-## 🛠️ Comandos Útiles
+##  Comandos Útiles
 
 \`\`\`bash
 # Ver logs de la API
@@ -470,7 +470,7 @@ docker-compose exec api bash
 
 ---
 
-## 📊 Documentación Interactiva
+##  Documentación Interactiva
 
 FastAPI genera automáticamente documentación interactiva:
 
@@ -481,7 +481,7 @@ Desde ahí puedes probar todos los endpoints directamente desde el navegador.
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Error: "Modelo no cargado"
 - Asegúrate de haber ejecutado `train.py` primero
@@ -496,16 +496,12 @@ Desde ahí puedes probar todos los endpoints directamente desde el navegador.
 
 ---
 
-## 📝 Notas
+##  Notas
 
 - El modelo debe ser entrenado antes de usar la API
 - Los datos de entrada deben seguir el formato exacto especificado
 - La API valida automáticamente todos los inputs
 - Las probabilidades suman 100% entre todas las enfermedades
-
----
-
-## 🚀 Próximos Pasos
 
 1. Entrenar el modelo con tu dataset
 2. Iniciar la API con Docker
