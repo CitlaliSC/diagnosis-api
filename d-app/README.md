@@ -2,7 +2,7 @@
 
 Aplicación web completa para diagnóstico médico asistido por inteligencia artificial, integrada con una API local de machine learning.
 
-## 🏥 Características
+##  Características
 
 - **Autenticación de Médicos**: Sistema de login seguro para profesionales de la salud
 - **Dashboard Interactivo**: Visualización de estadísticas y consultas recientes
@@ -12,7 +12,7 @@ Aplicación web completa para diagnóstico médico asistido por inteligencia art
 - **Historial de Consultas**: Búsqueda y filtrado de consultas anteriores
 - **Exportación de Informes**: Descarga de reportes en formato texto
 
-## 🚀 Tecnologías
+##  Tecnologías
 
 - **Frontend**: Next.js 16, React 19, TypeScript
 - **Estilos**: Tailwind CSS v4
@@ -20,13 +20,13 @@ Aplicación web completa para diagnóstico médico asistido por inteligencia art
 - **Gráficos**: Recharts
 - **API**: Integración con FastAPI (Python)
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 1. **Node.js** 18+ instalado
 2. **API de Diagnóstico** ejecutándose en `http://localhost:8000`
 3. Navegador web moderno
 
-## 🔧 Instalación
+##  Instalación
 
 ### 1. Clonar o Descargar el Proyecto
 
@@ -172,7 +172,7 @@ Accede a todas las consultas anteriores con:
 - Filtros por fecha
 - Ordenamiento por fecha o confianza
 
-## 🔍 Estructura del Proyecto
+##  Estructura del Proyecto
 
 \`\`\`
 medical-diagnosis-app/
@@ -195,7 +195,7 @@ medical-diagnosis-app/
 └── README.md               # Este archivo
 \`\`\`
 
-## 🎨 Categorización de Valores
+##  Categorización de Valores
 
 ### Presión Arterial
 La aplicación convierte automáticamente los valores numéricos a categorías:
@@ -225,7 +225,7 @@ La aplicación convierte automáticamente los valores numéricos a categorías:
 - **medium**: 60-79% (Confianza media)
 - **low**: <60% (Confianza baja)
 
-## 📄 Informe Descargable
+##  Informe Descargable
 
 El informe incluye toda la información capturada:
 
@@ -279,14 +279,14 @@ RECOMENDACIONES
 URGENCIA: Prioridad Moderada
 \`\`\`
 
-## 🔐 Seguridad
+##  Seguridad
 
 - La autenticación actual usa localStorage (solo para demostración)
 - En producción, implementa autenticación real con JWT o sesiones
 - Asegura la API con autenticación y HTTPS
 - Valida todos los datos del lado del servidor
 
-## 🐛 Solución de Problemas
+##  Solución de Problemas
 
 ### Error: "Error de Conexión"
 
@@ -335,7 +335,7 @@ app.add_middleware(
 4. Confirma que gender sea "Male" o "Female"
 5. Verifica que blood_pressure y cholesterol_level sean "High", "Normal" o "Low"
 
-## 📊 Formato de Datos
+##  Formato de Datos
 
 ### Datos Enviados a la API
 
@@ -395,7 +395,7 @@ app.add_middleware(
 }
 \`\`\`
 
-## 🚀 Despliegue
+##  Despliegue
 
 ### Desarrollo Local
 \`\`\`bash
@@ -415,7 +415,7 @@ npm start
 
 **Nota**: Para producción, necesitarás configurar la URL de la API como variable de entorno y actualizar el código para usar `process.env.NEXT_PUBLIC_API_URL` en lugar de `http://localhost:8000`.
 
-## 🔄 Próximas Mejoras
+##  Próximas Mejoras
 
 - [ ] Autenticación real con JWT
 - [ ] Base de datos para persistencia
@@ -428,7 +428,7 @@ npm start
 - [ ] Historial médico completo del paciente
 - [ ] Integración con sistemas hospitalarios
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 1. **Solo para Demostración**: Este sistema es una demostración y no debe usarse para diagnósticos médicos reales sin validación profesional.
 
@@ -442,7 +442,7 @@ npm start
 
 6. **Categorización Automática**: Los valores numéricos de presión arterial y colesterol se convierten automáticamente a categorías (High/Normal/Low) antes de enviarlos a la API.
 
-## 📞 Soporte
+##  Soporte
 
 Para problemas o preguntas:
 1. Revisa la sección de Solución de Problemas
@@ -450,7 +450,7 @@ Para problemas o preguntas:
 3. Asegúrate de que la API esté funcionando correctamente
 4. Comprueba que los formatos de datos coincidan con lo esperado
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es solo para fines educativos y de demostración.
 
